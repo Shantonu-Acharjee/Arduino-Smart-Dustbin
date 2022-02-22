@@ -30,6 +30,7 @@ int distanceB;
 
 
 int a = 0;
+int b = 0;
 
 void setup() {
   
@@ -75,24 +76,36 @@ void loop() {
 
 
   //Dustbin Door
-  if(distanceA < 15){
+  if(distanceA < 15 && b == 0){
      myservo.write(90); 
-     delay(400);
+     b = 1;
+     
    }
+
+
+
+
+   
+
+   /*
   
   if(distanceA > 16){
     myservo.write(0); 
      
   }
 
+  */
+
 
   
   // For chocolate
-  if(distanceB < 15 && a == 0){
+  if(distanceB < 15 && a == 0 && b == 1){
+    myservo.write(0); 
     myservoB.write(90); 
     delay(400);
     myservoB.write(0);
     a = 1;
+    b = 0;
   }
   
   if(distanceB > 16){
@@ -102,11 +115,11 @@ void loop() {
 
   
   
-  Serial.print("distanceA:");
-  Serial.println(distanceA);
+  //Serial.print("distanceA:");
+  //Serial.println(distanceA);
   
-  Serial.print("distanceB:");
-  Serial.println(distanceB);
+  //Serial.print("distanceB:");
+  //Serial.println(distanceB);
 
 
 }//End Loop
