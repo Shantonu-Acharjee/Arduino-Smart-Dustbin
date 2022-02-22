@@ -1,3 +1,19 @@
+/*
+Project Name :- Smart Dustbin
+Full Project Link :- https://tinyurl.com/y8r5y3ph
+Github Project Link :- https://tinyurl.com/ybdpm8jk
+
+
+Author:- Shantonu Acharjee
+Email:- shantonuacharjee@gmail.com
+YouTube :- https://tinyurl.com/yf466yws
+FaceBook Page:- https://tinyurl.com/ybvwfrbn
+*/
+
+
+
+
+
 #include <Servo.h>
 Servo myservo;  
 Servo myservoB;
@@ -35,13 +51,10 @@ void loop() {
   
    digitalWrite(trigPinA,LOW);
    delayMicroseconds(2);
-
    digitalWrite(trigPinA,HIGH);
    delayMicroseconds(10);
    digitalWrite(trigPinA,LOW);
-
    durationA=pulseIn(echoPinA,HIGH);
-  
    distanceA = durationA*0.034/2;
    
 
@@ -50,56 +63,50 @@ void loop() {
 
 
 
-
-
-
-
    digitalWrite(trigPinB,LOW);
    delayMicroseconds(2);
-
    digitalWrite(trigPinB,HIGH);
    delayMicroseconds(10);
    digitalWrite(trigPinB,LOW);
-
    durationB=pulseIn(echoPinB,HIGH);
-  
    distanceB = durationB*0.034/2;
    
 
 
 
-
-   
-if(distanceA < 15){
-   myservo.write(90); 
-   delay(400);
- }
-
-if(distanceA > 16){
-  myservo.write(0); 
-   
-}
-
-
-if(distanceB < 15 && a == 0){
+  //Dustbin Door
+  if(distanceA < 15){
+     myservo.write(90); 
+     delay(400);
+   }
   
-  myservoB.write(90); 
-  delay(400);
-  myservoB.write(0);
-  a = 1;
-}
-
-if(distanceB > 16){
-  myservoB.write(0);
-  a = 0;
-}
+  if(distanceA > 16){
+    myservo.write(0); 
+     
+  }
 
 
-Serial.print("distanceA:");
-Serial.println(distanceA);
+  
+  // For chocolate
+  if(distanceB < 15 && a == 0){
+    myservoB.write(90); 
+    delay(400);
+    myservoB.write(0);
+    a = 1;
+  }
+  
+  if(distanceB > 16){
+    myservoB.write(0);
+    a = 0;
+  }
 
-Serial.print("distanceB:");
-Serial.println(distanceB);
+  
+  
+  Serial.print("distanceA:");
+  Serial.println(distanceA);
+  
+  Serial.print("distanceB:");
+  Serial.println(distanceB);
 
 
 }//End Loop
