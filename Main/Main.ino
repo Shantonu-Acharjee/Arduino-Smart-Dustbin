@@ -1,14 +1,22 @@
 /*
-Project Name :- Smart Dustbin
-Full Project Link :- https://tinyurl.com/y8r5y3ph
-Github Project Link :- https://tinyurl.com/ybdpm8jk
-
-
-Author:- Shantonu Acharjee
-Email:- shantonuacharjee@gmail.com
-YouTube :- https://tinyurl.com/yf466yws
-FaceBook Page:- https://tinyurl.com/ybvwfrbn
+Full Project Link : https://shantonuacharjee.blogspot.com/2022/04/Arduino-smart-dustbin-with-chocolate-gift.html
+Author  :- Shantonu Acharjee(Shanto)
+Phone   :- +880 1789333514
+Email   :- ShantonuAcharjee@gmail.com
+Website :- https://tinyurl.com/y7drg9df
+FaceBook Profile :- https://tinyurl.com/ydetnpqc
+FaceBook Page-1  :- https://tinyurl.com/ybvwfrbn
+FaceBook Page-2  :- https://tinyurl.com/y9zql7l8
+YouTube-1 :- https://tinyurl.com/yf466yws
+YouTube-2 :- https://tinyurl.com/yag3z37l
+Linkedin  :- https://tinyurl.com/y9h5s32e
+Github    :- https://tinyurl.com/ydypssmp
+Instagram :- https://tinyurl.com/y3y7429m
+Twitter   :- https://tinyurl.com/yadhkq9f
+TikTok    :- https://tinyurl.com/y8pnh4mb
+EasyEda   :- https://tinyurl.com/yagqwv7k
 */
+
 
 
 
