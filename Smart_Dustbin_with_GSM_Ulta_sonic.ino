@@ -1,9 +1,20 @@
 /*
-Full Project Link : https://github.com/ShantonuAcharjee/Arduino-Smart-Dustbin
-Author: shantonuacharjee
-Email: shantonuacharjee@gmail.com
-YouTube :- http://tinyurl.com/yy374bou
-FaceBook: http://tinyurl.com/y52rgdd4Full Project Link :
+Full Project Link : https://shantonuacharjee.blogspot.com/2022/04/Arduino-smart-dustbin-with-chocolate-gift.html
+Author  :- Shantonu Acharjee(Shanto)
+Phone   :- +880 1789333514
+Email   :- ShantonuAcharjee@gmail.com
+Website :- https://tinyurl.com/y7drg9df
+FaceBook Profile :- https://tinyurl.com/ydetnpqc
+FaceBook Page-1  :- https://tinyurl.com/ybvwfrbn
+FaceBook Page-2  :- https://tinyurl.com/y9zql7l8
+YouTube-1 :- https://tinyurl.com/yf466yws
+YouTube-2 :- https://tinyurl.com/yag3z37l
+Linkedin  :- https://tinyurl.com/y9h5s32e
+Github    :- https://tinyurl.com/ydypssmp
+Instagram :- https://tinyurl.com/y3y7429m
+Twitter   :- https://tinyurl.com/yadhkq9f
+TikTok    :- https://tinyurl.com/y8pnh4mb
+EasyEda   :- https://tinyurl.com/yagqwv7k
 */
 
 #include <Servo.h>
